@@ -6,37 +6,39 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/style.css">
 
     </head>
     <body>
 
         <div class="site">
-          <div class="header">
+          <!-- <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
-          </div>
+          </div> -->
+
+          <header class="global-header">
+            <h1 class="global-header__logo"><a class="extra" href="/">home</a></h1>
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li><span id="gridtoggle">Toggle Grid</span></li
+               ><li><a href="https://github.com/designbyjake/sassline">Github</a></li>
+              </ul>
+            </nav>
+          </header>
 
           {{ content }}
 
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name is<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+          <footer class="global-footer">
+            <p>Hodor</p>
+          </footer>
+
+          <script src="/assets/js/responsive-nav.js"></script>
 
     </body>
 </html>
