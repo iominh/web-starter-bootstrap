@@ -13,7 +13,10 @@
 @import "modules/footer";
 @import "modules/globals";
 @import "modules/header";
-@import "modules/nav"; 
+@import "modules/nav";
+
+// Vendors
+@import "vendors/syntax-github"; 
 
 // Demo baseline grid styles.
 #baseline.show-grid {
