@@ -6,6 +6,7 @@ category: blog
 tags: []
 ---
 
+
 <section markdown="1">
 
 {:.typl8-drop-cap}

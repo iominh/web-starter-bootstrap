@@ -4,9 +4,10 @@
 .global-header {
   background-color: $backgroundColour;
   font-size: 0;
+  border-bottom: 1px solid #eee;
 
   &__logo {
-    background-image: url(../img/sassline-logo.svg);
+    background-image: url(../../img/sassline-logo.svg);
     background-size: cover;
     color: transparent;
     display: inline-block;

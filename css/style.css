@@ -40,18 +40,18 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-size: 75%; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     html {
-      font-size: 87.5%; } }
+      font-size: 75%; } }
   @media screen and (min-width: 50em) {
     html {
-      font-size: 93.75%; } }
+      font-size: 75%; } }
   @media screen and (min-width: 64em) {
     html {
-      font-size: 106.25%; } }
+      font-size: 100%; } }
   @media screen and (min-width: 100em) {
     html {
-      font-size: 118.75%; } }
+      font-size: 112.5%; } }
 
 body {
   font-family: Open Sans, sans-serif;
@@ -60,36 +60,41 @@ body {
   line-height: 2rem;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   font-size: 1.33333rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     body {
-      font-size: 1.21429rem; } }
+      font-size: 1.41667rem; } }
   @media screen and (min-width: 50em) {
     body {
-      font-size: 1.2rem; } }
+      font-size: 1.5rem; } }
   @media screen and (min-width: 64em) {
     body {
-      font-size: 1.17647rem; } }
+      font-size: 1.25rem; } }
   @media screen and (min-width: 100em) {
     body {
-      font-size: 1.15789rem; } }
+      font-size: 1.22222rem; } }
+
+::-moz-selection {
+  background-color: #2B2B2B;
+  color: #bbb; }
+
+::selection {
+  background-color: #2B2B2B;
+  color: #bbb; }
 
 a {
   transition: color .1s, background-color .1s;
   color: #0E58F5;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #0B348B;
+    color: #3f7af7;
     text-decoration: none; }
 
 .typeset p a, .typeset li a {
-  background-image: linear-gradient(to bottom, transparent 50%, #709cf9 50%);
   background-position: 0 93%;
   background-repeat: repeat-x;
-  background-size: 100% 0.15rem;
-  text-shadow: 0.1rem 0 #FCFCFC, 0.15rem 0 #FCFCFC, -0.1rem 0 #FCFCFC, -0.15rem 0 #FCFCFC; }
-  .typeset p a:hover, .typeset p a:active, .typeset p a:focus, .typeset li a:hover, .typeset li a:active, .typeset li a:focus {
-    background-image: linear-gradient(to bottom, transparent 50%, #1257ea 50%); }
+  background-size: 100% 0.15rem; }
 .typeset p {
   -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
   -moz-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
@@ -98,22 +103,22 @@ a {
   line-height: 2rem;
   margin-bottom: 1.43999rem;
   padding-top: 0.56001rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset p {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
+      margin-bottom: 1.46749rem;
+      padding-top: 0.53251rem; } }
   @media screen and (min-width: 50em) {
     .typeset p {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
+      margin-bottom: 1.49499rem;
+      padding-top: 0.50501rem; } }
   @media screen and (min-width: 64em) {
     .typeset p {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+      margin-bottom: 1.41249rem;
+      padding-top: 0.58751rem; } }
   @media screen and (min-width: 100em) {
     .typeset p {
-      margin-bottom: 1.3821rem;
-      padding-top: 0.6179rem; } }
+      margin-bottom: 1.40332rem;
+      padding-top: 0.59668rem; } }
 .typeset h1, .typeset h2, .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
   -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
@@ -128,180 +133,177 @@ a {
   font-size: 2.33333rem;
   margin-bottom: 0.25832rem;
   padding-top: 0.74168rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset h1, .typeset .alpha {
-      font-size: 2.14286rem;
-      margin-bottom: 0.19642rem;
-      padding-top: 0.80358rem; } }
+      font-size: 2.5rem;
+      margin-bottom: 0.31249rem;
+      padding-top: 0.68751rem; } }
   @media screen and (min-width: 50em) {
     .typeset h1, .typeset .alpha {
-      font-size: 2.13333rem;
-      margin-bottom: 0.19332rem;
-      padding-top: 0.80668rem; } }
+      font-size: 2.66667rem;
+      margin-bottom: 0.36666rem;
+      padding-top: 0.63334rem; } }
   @media screen and (min-width: 64em) {
     .typeset h1, .typeset .alpha {
-      font-size: 2.35294rem;
-      margin-bottom: 0.2647rem;
-      padding-top: 0.7353rem; } }
+      font-size: 2.5rem;
+      margin-bottom: 0.31249rem;
+      padding-top: 0.68751rem; } }
   @media screen and (min-width: 100em) {
     .typeset h1, .typeset .alpha {
-      font-size: 2.63158rem;
-      margin-bottom: 0.35525rem;
-      padding-top: 0.64475rem; } }
+      font-size: 2.77778rem;
+      margin-bottom: 0.40277rem;
+      padding-top: 0.59723rem; } }
 .typeset h2, .typeset .beta {
   line-height: 3rem;
   font-size: 2.08333rem;
   margin-bottom: 0.17707rem;
   padding-top: 0.82293rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset h2, .typeset .beta {
-      font-size: 1.9rem;
-      margin-bottom: 0.11749rem;
-      padding-top: 0.88251rem; } }
+      font-size: 2.21667rem;
+      margin-bottom: 0.22041rem;
+      padding-top: 0.77959rem; } }
   @media screen and (min-width: 50em) {
     .typeset h2, .typeset .beta {
-      font-size: 1.87333rem;
-      margin-bottom: 0.10882rem;
-      padding-top: 0.89118rem; } }
+      font-size: 2.34167rem;
+      margin-bottom: 0.26103rem;
+      padding-top: 0.73897rem; } }
   @media screen and (min-width: 64em) {
     .typeset h2, .typeset .beta {
-      font-size: 2.08824rem;
-      margin-bottom: 0.17867rem;
-      padding-top: 0.82133rem; } }
+      font-size: 2.21875rem;
+      margin-bottom: 0.22108rem;
+      padding-top: 0.77892rem; } }
   @media screen and (min-width: 100em) {
     .typeset h2, .typeset .beta {
-      font-size: 2.31053rem;
-      margin-bottom: 0.25091rem;
-      padding-top: 0.74909rem; } }
+      font-size: 2.43889rem;
+      margin-bottom: 0.29263rem;
+      padding-top: 0.70737rem; } }
 .typeset h3, .typeset .gamma {
   line-height: 3rem;
   font-size: 1.86667rem;
   margin-bottom: 0.10666rem;
   padding-top: 0.89334rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset h3, .typeset .gamma {
-      font-size: 1.71429rem;
-      margin-bottom: 0.05713rem;
-      padding-top: 0.94287rem; } }
+      font-size: 2rem;
+      margin-bottom: 0.14999rem;
+      padding-top: 0.85001rem; } }
   @media screen and (min-width: 50em) {
     .typeset h3, .typeset .gamma {
-      font-size: 1.70667rem;
-      margin-bottom: 0.05466rem;
-      padding-top: 0.94534rem; } }
+      font-size: 2.13333rem;
+      margin-bottom: 0.19332rem;
+      padding-top: 0.80668rem; } }
   @media screen and (min-width: 64em) {
     .typeset h3, .typeset .gamma {
-      font-size: 1.76471rem;
-      margin-bottom: 0.07352rem;
-      padding-top: 0.92648rem; } }
+      font-size: 1.875rem;
+      margin-bottom: 0.10936rem;
+      padding-top: 0.89064rem; } }
   @media screen and (min-width: 100em) {
     .typeset h3, .typeset .gamma {
-      font-size: 1.85789rem;
-      margin-bottom: 0.10381rem;
-      padding-top: 0.89619rem; } }
+      font-size: 1.96111rem;
+      margin-bottom: 0.13735rem;
+      padding-top: 0.86265rem; } }
 .typeset h4, .typeset .delta {
   line-height: 2rem;
   font-size: 1.66667rem;
   margin-bottom: -0.45834rem;
   padding-top: 0.45834rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset h4, .typeset .delta {
-      font-size: 1.52143rem;
-      margin-bottom: -0.50555rem;
-      padding-top: 0.50555rem; } }
+      font-size: 1.775rem;
+      margin-bottom: -0.42314rem;
+      padding-top: 0.42314rem; } }
   @media screen and (min-width: 50em) {
     .typeset h4, .typeset .delta {
-      font-size: 1.5rem;
-      margin-bottom: -0.51251rem;
-      padding-top: 0.51251rem; } }
+      font-size: 1.875rem;
+      margin-bottom: -0.39064rem;
+      padding-top: 0.39064rem; } }
   @media screen and (min-width: 64em) {
     .typeset h4, .typeset .delta {
-      font-size: 1.57059rem;
-      margin-bottom: -0.48957rem;
-      padding-top: 0.48957rem; } }
+      font-size: 1.66875rem;
+      margin-bottom: -0.45767rem;
+      padding-top: 0.45767rem; } }
   @media screen and (min-width: 100em) {
     .typeset h4, .typeset .delta {
-      font-size: 1.63684rem;
-      margin-bottom: -0.46804rem;
-      padding-top: 0.46804rem; } }
+      font-size: 1.72778rem;
+      margin-bottom: -0.43848rem;
+      padding-top: 0.43848rem; } }
 .typeset h5, .typeset .epsilon {
   line-height: 2rem;
   font-size: 1.49167rem;
   margin-bottom: -0.51522rem;
   padding-top: 0.51522rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset h5, .typeset .epsilon {
-      font-size: 1.37143rem;
-      margin-bottom: -0.5543rem;
-      padding-top: 0.5543rem; } }
+      font-size: 1.6rem;
+      margin-bottom: -0.48001rem;
+      padding-top: 0.48001rem; } }
   @media screen and (min-width: 50em) {
     .typeset h5, .typeset .epsilon {
-      font-size: 1.36667rem;
-      margin-bottom: -0.55584rem;
-      padding-top: 0.55584rem; } }
+      font-size: 1.70833rem;
+      margin-bottom: -0.4448rem;
+      padding-top: 0.4448rem; } }
   @media screen and (min-width: 64em) {
     .typeset h5, .typeset .epsilon {
-      font-size: 1.32353rem;
-      margin-bottom: -0.56986rem;
-      padding-top: 0.56986rem; } }
+      font-size: 1.40625rem;
+      margin-bottom: -0.54298rem;
+      padding-top: 0.54298rem; } }
   @media screen and (min-width: 100em) {
     .typeset h5, .typeset .epsilon {
-      font-size: 1.31579rem;
-      margin-bottom: -0.57238rem;
-      padding-top: 0.57238rem; } }
+      font-size: 1.38889rem;
+      margin-bottom: -0.54862rem;
+      padding-top: 0.54862rem; } }
 .typeset h6, .typeset .zeta {
   line-height: 2rem;
   font-size: 1.33333rem;
   margin-bottom: -0.56668rem;
   padding-top: 0.56668rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset h6, .typeset .zeta {
-      font-size: 1.21429rem;
-      margin-bottom: -0.60537rem;
-      padding-top: 0.60537rem; } }
+      font-size: 1.41667rem;
+      margin-bottom: -0.53959rem;
+      padding-top: 0.53959rem; } }
   @media screen and (min-width: 50em) {
     .typeset h6, .typeset .zeta {
-      font-size: 1.2rem;
-      margin-bottom: -0.61001rem;
-      padding-top: 0.61001rem; } }
+      font-size: 1.5rem;
+      margin-bottom: -0.51251rem;
+      padding-top: 0.51251rem; } }
   @media screen and (min-width: 64em) {
     .typeset h6, .typeset .zeta {
-      font-size: 1.17647rem;
-      margin-bottom: -0.61766rem;
-      padding-top: 0.61766rem; } }
+      font-size: 1.25rem;
+      margin-bottom: -0.59376rem;
+      padding-top: 0.59376rem; } }
   @media screen and (min-width: 100em) {
     .typeset h6, .typeset .zeta {
-      font-size: 1.15789rem;
-      margin-bottom: -0.62369rem;
-      padding-top: 0.62369rem; } }
+      font-size: 1.22222rem;
+      margin-bottom: -0.60279rem;
+      padding-top: 0.60279rem; } }
 .typeset ul, .typeset ol {
   line-height: 2rem;
   margin-bottom: 1.43999rem;
   padding-top: 0.56001rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset ul, .typeset ol {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
+      margin-bottom: 1.46749rem;
+      padding-top: 0.53251rem; } }
   @media screen and (min-width: 50em) {
     .typeset ul, .typeset ol {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
+      margin-bottom: 1.49499rem;
+      padding-top: 0.50501rem; } }
   @media screen and (min-width: 64em) {
     .typeset ul, .typeset ol {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+      margin-bottom: 1.41249rem;
+      padding-top: 0.58751rem; } }
   @media screen and (min-width: 100em) {
     .typeset ul, .typeset ol {
-      margin-bottom: 1.3821rem;
-      padding-top: 0.6179rem; } }
+      margin-bottom: 1.40332rem;
+      padding-top: 0.59668rem; } }
   .typeset ul li, .typeset ol li {
     -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
     -moz-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
     -ms-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
     font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
     margin-left: 2rem; }
-    @media screen and (min-width: 40em) {
-      .typeset ul li, .typeset ol li {
-        margin-left: 0; } }
 .typeset b, .typeset strong, .typeset .bold {
   font-weight: 700; }
 .typeset em, .typeset i, .typeset .italic {
@@ -311,41 +313,41 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 1.06667rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset small, .typeset .caption {
-      font-size: 0.97143rem; } }
+      font-size: 1.13333rem; } }
   @media screen and (min-width: 50em) {
     .typeset small, .typeset .caption {
-      font-size: 0.96rem; } }
+      font-size: 1.2rem; } }
   @media screen and (min-width: 64em) {
     .typeset small, .typeset .caption {
-      font-size: 0.88235rem; } }
+      font-size: 0.9375rem; } }
   @media screen and (min-width: 100em) {
     .typeset small, .typeset .caption {
-      font-size: 0.82105rem; } }
+      font-size: 0.86667rem; } }
 .typeset small {
   line-height: 1rem; }
 .typeset .caption {
-  color: #BDC8CC;
+  color: #7c7c7c;
   line-height: 2rem;
   margin-bottom: 1.34666rem;
   padding-top: 0.65334rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset .caption {
-      margin-bottom: 1.3157rem;
-      padding-top: 0.6843rem; } }
+      margin-bottom: 1.36832rem;
+      padding-top: 0.63168rem; } }
   @media screen and (min-width: 50em) {
     .typeset .caption {
-      margin-bottom: 1.31199rem;
-      padding-top: 0.68801rem; } }
+      margin-bottom: 1.38999rem;
+      padding-top: 0.61001rem; } }
   @media screen and (min-width: 64em) {
     .typeset .caption {
-      margin-bottom: 1.28675rem;
-      padding-top: 0.71325rem; } }
+      margin-bottom: 1.30468rem;
+      padding-top: 0.69532rem; } }
   @media screen and (min-width: 100em) {
     .typeset .caption {
-      margin-bottom: 1.26683rem;
-      padding-top: 0.73317rem; } }
+      margin-bottom: 1.28166rem;
+      padding-top: 0.71834rem; } }
 .typeset h1 + .caption, .typeset .alpha + .caption, .typeset h2 + .caption, .typeset .beta + .caption, .typeset h3 + .caption, .typeset .gamma + .caption {
   margin-top: -1rem; }
 .typeset .delta + .caption, .typeset .epsilon + .caption, .typeset .zeta + .caption {
@@ -356,27 +358,27 @@ a {
   padding-left: 1rem;
   margin-bottom: 1.87999rem;
   padding-bottom: 0.56001rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset blockquote p {
-      margin-bottom: 1.80142rem;
-      padding-bottom: 0.5993rem; } }
+      margin-bottom: 1.93499rem;
+      padding-bottom: 0.53251rem; } }
   @media screen and (min-width: 50em) {
     .typeset blockquote p {
-      margin-bottom: 1.79199rem;
-      padding-bottom: 0.60401rem; } }
+      margin-bottom: 1.98999rem;
+      padding-bottom: 0.50501rem; } }
   @media screen and (min-width: 64em) {
     .typeset blockquote p {
-      margin-bottom: 1.77646rem;
-      padding-bottom: 0.61177rem; } }
+      margin-bottom: 1.82499rem;
+      padding-bottom: 0.58751rem; } }
   @media screen and (min-width: 100em) {
     .typeset blockquote p {
-      margin-bottom: 1.7642rem;
-      padding-bottom: 0.6179rem; } }
-@media screen and (min-width: 40em) {
+      margin-bottom: 1.80666rem;
+      padding-bottom: 0.59668rem; } }
+@media screen and (min-width: 18.75em) {
   .typeset blockquote {
     margin-left: -1rem; } }
 .typeset hr {
-  background-image: linear-gradient(to bottom, transparent 50%, #BDC8CC 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #7c7c7c 50%);
   background-position: 0 50%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
@@ -385,8 +387,8 @@ a {
   padding-bottom: 3rem;
   padding-top: 3rem; }
 .typeset code, .typeset pre {
-  background-color: #F5F4F2;
-  font-family: monospace; }
+  font-family: monospace;
+  overflow: auto; }
 .typeset pre {
   display: block;
   margin-bottom: 2rem;
@@ -398,18 +400,18 @@ a {
 .typeset code {
   line-height: 1rem;
   font-size: 1.06667rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .typeset code {
-      font-size: 0.97143rem; } }
+      font-size: 1.13333rem; } }
   @media screen and (min-width: 50em) {
     .typeset code {
-      font-size: 0.96rem; } }
+      font-size: 1.2rem; } }
   @media screen and (min-width: 64em) {
     .typeset code {
-      font-size: 0.88235rem; } }
+      font-size: 0.9375rem; } }
   @media screen and (min-width: 100em) {
     .typeset code {
-      font-size: 0.82105rem; } }
+      font-size: 0.86667rem; } }
 .typeset .upper {
   letter-spacing: 0.1rem;
   text-transform: uppercase; }
@@ -431,7 +433,7 @@ a {
   font-feature-settings: 'onum' 1, 'kern' 1; }
 
 .section {
-  margin: 0 auto;
+  margin: 20px auto;
   position: relative;
   width: 94%; }
   .section:before, .section:after {
@@ -441,32 +443,32 @@ a {
     clear: both; }
   @media screen and (min-width: 64em) {
     .section {
-      max-width: 64.70588rem; } }
+      max-width: 68.75rem; } }
   @media screen and (min-width: 100em) {
     .section {
-      max-width: 68.42105rem; } }
+      max-width: 72.22222rem; } }
 
 .single {
   margin: 0 auto;
   max-width: 41.66667rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .single {
-      max-width: 39.28571rem; } }
+      max-width: 45.83333rem; } }
   @media screen and (min-width: 50em) {
     .single {
-      max-width: 40rem; } }
+      max-width: 54.16667rem; } }
   @media screen and (min-width: 64em) {
     .single {
-      max-width: 40rem; } }
+      max-width: 43.75rem; } }
   @media screen and (min-width: 100em) {
     .single {
-      max-width: 39.47368rem; } }
+      max-width: 44.44444rem; } }
 
 .column {
   margin: 0 auto;
   width: 100%;
   max-width: 41.66667rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .column {
       float: left;
       margin: inherit;
@@ -478,22 +480,22 @@ a {
       padding-left: 2rem;
       padding-right: 2rem; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--duo {
     width: 50%; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--trio {
     width: 33.333%; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--quad {
     width: 50%; } }
 @media screen and (min-width: 50em) {
   .column--quad {
     width: 25%; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--main {
     max-width: 65%; } }
 @media screen and (min-width: 50em) {
@@ -504,9 +506,9 @@ a {
     max-width: 65%; } }
 @media screen and (min-width: 100em) {
   .column--main {
-    max-width: 63.53846%; } }
+    max-width: 65%; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--sidebar {
     padding-right: 2rem;
     max-width: 35%; } }
@@ -519,9 +521,9 @@ a {
     max-width: 35%; } }
 @media screen and (min-width: 100em) {
   .column--sidebar {
-    max-width: 36.46154%; } }
+    max-width: 35%; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--main + .column--sidebar {
     padding-left: 2rem;
     padding-right: 1rem; } }
@@ -533,17 +535,17 @@ a {
 @media screen and (min-width: 64em) {
   .column--trio p, .column--trio li, .column--quad p, .column--quad li, .column--sidebar p, .column--sidebar li {
     line-height: 2rem;
-    font-size: 0.99412rem;
-    margin-bottom: 1.32805rem;
-    padding-top: 0.67195rem; } }
+    font-size: 1.05625rem;
+    margin-bottom: 1.34855rem;
+    padding-top: 0.65145rem; } }
 @media screen and (min-width: 100em) {
   .column--trio p, .column--trio li, .column--quad p, .column--quad li, .column--sidebar p, .column--sidebar li {
     line-height: 2rem;
-    font-size: 0.92632rem;
-    margin-bottom: 1.30567rem;
-    padding-top: 0.69433rem; } }
+    font-size: 0.97778rem;
+    margin-bottom: 1.32266rem;
+    padding-top: 0.67734rem; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--right {
     max-width: 65%;
     margin-left: 35%; } }
@@ -557,9 +559,9 @@ a {
     margin-left: 35%; } }
 @media screen and (min-width: 100em) {
   .column--right {
-    max-width: 63.53846%;
-    margin-left: 36.46154%; } }
-@media screen and (min-width: 40em) {
+    max-width: 65%;
+    margin-left: 35%; } }
+@media screen and (min-width: 18.75em) {
   .column--right .sidenote {
     left: 0;
     padding-left: 1rem;
@@ -576,9 +578,9 @@ a {
 @media screen and (min-width: 100em) {
   .column--right .sidenote {
     padding-left: 2rem;
-    max-width: 36.46154%; } }
+    max-width: 35%; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .column--left {
     max-width: 65%; } }
 @media screen and (min-width: 50em) {
@@ -589,8 +591,8 @@ a {
     max-width: 65%; } }
 @media screen and (min-width: 100em) {
   .column--left {
-    max-width: 63.53846%; } }
-@media screen and (min-width: 40em) {
+    max-width: 65%; } }
+@media screen and (min-width: 18.75em) {
   .column--left .sidenote {
     padding-left: 2rem;
     padding-right: 1rem;
@@ -609,11 +611,11 @@ a {
 @media screen and (min-width: 100em) {
   .column--left .sidenote {
     padding-right: 2rem;
-    max-width: 36.46154%;
-    left: 63.53846%; } }
+    max-width: 35%;
+    left: 65%; } }
 
 .global-footer p {
-  color: #BDC8CC;
+  color: #7c7c7c;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -621,18 +623,18 @@ a {
   margin: 0;
   text-align: center;
   font-size: 1.19167rem; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .global-footer p {
-      font-size: 1.09286rem; } }
+      font-size: 1.275rem; } }
   @media screen and (min-width: 50em) {
     .global-footer p {
-      font-size: 1.08667rem; } }
+      font-size: 1.35833rem; } }
   @media screen and (min-width: 64em) {
     .global-footer p {
-      font-size: 0.99412rem; } }
+      font-size: 1.05625rem; } }
   @media screen and (min-width: 100em) {
     .global-footer p {
-      font-size: 0.92632rem; } }
+      font-size: 0.97778rem; } }
 
 body {
   background-color: #FCFCFC;
@@ -641,7 +643,7 @@ body {
 
 .section {
   padding: 2rem 0; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .section {
       padding: 3rem 0; } }
   @media screen and (min-width: 50em) {
@@ -653,7 +655,7 @@ img {
   height: auto;
   vertical-align: middle;
   width: 100%; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     img {
       margin: 0 auto;
       max-width: 100%;
@@ -661,9 +663,10 @@ img {
 
 .global-header {
   background-color: #FCFCFC;
-  font-size: 0; }
+  font-size: 0;
+  border-bottom: 1px solid #eee; }
   .global-header__logo {
-    background-image: url(../img/sassline-logo.svg);
+    background-image: url(../../img/sassline-logo.svg);
     background-size: cover;
     color: transparent;
     display: inline-block;
@@ -673,7 +676,7 @@ img {
     position: relative;
     vertical-align: middle;
     width: 132px; }
-    @media screen and (min-width: 40em) {
+    @media screen and (min-width: 18.75em) {
       .global-header__logo {
         margin-left: 2rem; } }
     .global-header__logo a {
@@ -702,7 +705,7 @@ img {
   overflow: hidden;
   position: absolute;
   zoom: 1; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .js .nav-collapse {
       max-height: none;
       position: relative; } }
@@ -717,18 +720,18 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .nav-toggle {
       display: none; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .main-nav {
     display: inline-block;
     width: calc(100% - 132px - 2rem);
     vertical-align: middle; } }
 .main-nav .main-nav__list {
   border-top: 0.1rem solid #d9d9d9; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .main-nav .main-nav__list {
       border: 0;
       background-color: transparent;
@@ -753,7 +756,7 @@ img {
     .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
       background-color: #0E58F5;
       color: #FFFFFF; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .main-nav li {
       display: inline-block;
       letter-spacing: 0.1rem;
@@ -761,10 +764,10 @@ img {
       padding: 1rem 0;
       text-transform: uppercase;
       width: auto;
-      font-size: 0.85714rem; }
+      font-size: 1rem; }
       .main-nav li a, .main-nav li span {
         border: 0;
-        color: #BDC8CC;
+        color: #7c7c7c;
         display: inline;
         padding: 0; }
         .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
@@ -772,15 +775,15 @@ img {
           color: #0E58F5; } }
   @media screen and (min-width: 50em) {
     .main-nav li {
-      font-size: 0.8rem; } }
+      font-size: 1rem; } }
   @media screen and (min-width: 64em) {
     .main-nav li {
-      font-size: 0.70588rem; } }
+      font-size: 0.75rem; } }
   @media screen and (min-width: 100em) {
     .main-nav li {
-      font-size: 0.63158rem; } }
+      font-size: 0.66667rem; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 18.75em) {
   .js .nav-collapse {
     display: inline-block;
     max-height: none;
@@ -801,7 +804,7 @@ img {
     width: 30px; }
   .js .nav-toggle.active:after {
     background-position: 0 30px; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 18.75em) {
     .js .nav-toggle {
       display: none; } }
 

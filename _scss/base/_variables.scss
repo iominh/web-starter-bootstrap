@@ -7,7 +7,7 @@
 // Change names if you prefer, it wont break the mixin as long as they are strings not just numbers.
 $breakpoints: (
   break-0: 0,     // 0px       Mobile first
-  break-1: 640,   // 640px   ~ Small tablet up
+  break-1: 300,   // 640px   ~ Small tablet up
   break-2: 800,   // 800px   ~ Large tablet up
   break-3: 1024,  // 1024px  ~ Desktop up
   break-4: 1600   // 1600px  ~ Large desktop up
@@ -16,11 +16,11 @@ $breakpoints: (
 // Root font-sizes for each breakpoint. Set to half desired line-height of body text.
 // ! Make sure to have as many sizes as breakpoints above.
 $rootsizes: (
-  rootsize-0: 12,   // 24px line-height body text
-  rootsize-1: 14,   // 28px line-height body text
-  rootsize-2: 15,   // 30px line-height body text
-  rootsize-3: 17,   // 34px line-height body text
-  rootsize-4: 19    // 38px line-height body text
+  rootsize-0: 12,
+  rootsize-1: 12,
+  rootsize-2: 12,
+  rootsize-3: 16,
+  rootsize-4: 18
 );
 
 // Set the optimum line-length for your text (based on typeface).
@@ -30,9 +30,9 @@ $rootsizes: (
 $measures: (
   measure-0: 500,  // 500px wide
   measure-1: 550,  // 550px wide
-  measure-2: 600,  // 600px wide
-  measure-3: 680,  // 680px wide
-  measure-4: 750   // 750px wide
+  measure-2: 650,  // 600px wide
+  measure-3: 700,  // 680px wide
+  measure-4: 800   // 750px wide
 );
 
 // Set the max-widths for containers (based on design).
@@ -84,12 +84,18 @@ $monospacetype: (
 // Proxima Nova: 0.57, Museo Slab: 0.66, JAF Facit: 0.7, Brandon Grotesque: 0.65, Clavo: 0.7, Adelle: 0.66, FF Tisa Pro: 0.82, Jubilat: 0.66, Futura PT: 0.66, Chaparral Pro: 0.5, Minion Pro: 0.66, Myriad Pro: 0.66, Adobe Caslon Pro: 0.36
 
 // Text colours. British English.
+$light-blue: #307EA9;
+$dark-blue: #0B348B;
+$blue: #0E58F5;
+
 $headingColour: #2E2E2E;
 $bodyColour: #494949;
-$linkColour: #0E58F5;
-$hoverColour: #0B348B;
-$captionColour: #BDC8CC;
+$linkColour: $blue;
+$hoverColour: lighten($blue, 10%);
+$captionColour: lighten($bodyColour, 20%);
 $white: #FFFFFF;
+$black: #2B2B2B;
+
 
 // Background colours.
 $backgroundColour: #FCFCFC;
