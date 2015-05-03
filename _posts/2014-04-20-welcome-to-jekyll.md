@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-categories: jekyll update
+categories: blog
 ---
 
 <section markdown="1" class="single">
