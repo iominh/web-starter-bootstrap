@@ -42,10 +42,10 @@ html {
   font-size: 75%; }
   @media screen and (min-width: 18.75em) {
     html {
-      font-size: 75%; } }
+      font-size: 87.5%; } }
   @media screen and (min-width: 50em) {
     html {
-      font-size: 75%; } }
+      font-size: 93.75%; } }
   @media screen and (min-width: 64em) {
     html {
       font-size: 100%; } }
@@ -64,10 +64,10 @@ body {
   font-size: 1.33333rem; }
   @media screen and (min-width: 18.75em) {
     body {
-      font-size: 1.41667rem; } }
+      font-size: 1.21429rem; } }
   @media screen and (min-width: 50em) {
     body {
-      font-size: 1.5rem; } }
+      font-size: 1.2rem; } }
   @media screen and (min-width: 64em) {
     body {
       font-size: 1.25rem; } }
@@ -105,12 +105,12 @@ a {
   padding-top: 0.56001rem; }
   @media screen and (min-width: 18.75em) {
     .typeset p {
-      margin-bottom: 1.46749rem;
-      padding-top: 0.53251rem; } }
+      margin-bottom: 1.4007rem;
+      padding-top: 0.5993rem; } }
   @media screen and (min-width: 50em) {
     .typeset p {
-      margin-bottom: 1.49499rem;
-      padding-top: 0.50501rem; } }
+      margin-bottom: 1.39599rem;
+      padding-top: 0.60401rem; } }
   @media screen and (min-width: 64em) {
     .typeset p {
       margin-bottom: 1.41249rem;
@@ -124,10 +124,13 @@ a {
   -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -ms-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-  color: #2E2E2E;
+  color: #35393b;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: auto;
+  font-smoothing: auto;
   font-family: Open Sans, sans-serif;
   font-style: normal;
-  font-weight: 700; }
+  font-weight: 800; }
 .typeset h1, .typeset .alpha {
   line-height: 3rem;
   font-size: 2.33333rem;
@@ -135,14 +138,14 @@ a {
   padding-top: 0.74168rem; }
   @media screen and (min-width: 18.75em) {
     .typeset h1, .typeset .alpha {
-      font-size: 2.5rem;
-      margin-bottom: 0.31249rem;
-      padding-top: 0.68751rem; } }
+      font-size: 2.14286rem;
+      margin-bottom: 0.19642rem;
+      padding-top: 0.80358rem; } }
   @media screen and (min-width: 50em) {
     .typeset h1, .typeset .alpha {
-      font-size: 2.66667rem;
-      margin-bottom: 0.36666rem;
-      padding-top: 0.63334rem; } }
+      font-size: 2.13333rem;
+      margin-bottom: 0.19332rem;
+      padding-top: 0.80668rem; } }
   @media screen and (min-width: 64em) {
     .typeset h1, .typeset .alpha {
       font-size: 2.5rem;
@@ -160,14 +163,14 @@ a {
   padding-top: 0.82293rem; }
   @media screen and (min-width: 18.75em) {
     .typeset h2, .typeset .beta {
-      font-size: 2.21667rem;
-      margin-bottom: 0.22041rem;
-      padding-top: 0.77959rem; } }
+      font-size: 1.9rem;
+      margin-bottom: 0.11749rem;
+      padding-top: 0.88251rem; } }
   @media screen and (min-width: 50em) {
     .typeset h2, .typeset .beta {
-      font-size: 2.34167rem;
-      margin-bottom: 0.26103rem;
-      padding-top: 0.73897rem; } }
+      font-size: 1.87333rem;
+      margin-bottom: 0.10882rem;
+      padding-top: 0.89118rem; } }
   @media screen and (min-width: 64em) {
     .typeset h2, .typeset .beta {
       font-size: 2.21875rem;
@@ -185,14 +188,14 @@ a {
   padding-top: 0.89334rem; }
   @media screen and (min-width: 18.75em) {
     .typeset h3, .typeset .gamma {
-      font-size: 2rem;
-      margin-bottom: 0.14999rem;
-      padding-top: 0.85001rem; } }
+      font-size: 1.71429rem;
+      margin-bottom: 0.05713rem;
+      padding-top: 0.94287rem; } }
   @media screen and (min-width: 50em) {
     .typeset h3, .typeset .gamma {
-      font-size: 2.13333rem;
-      margin-bottom: 0.19332rem;
-      padding-top: 0.80668rem; } }
+      font-size: 1.70667rem;
+      margin-bottom: 0.05466rem;
+      padding-top: 0.94534rem; } }
   @media screen and (min-width: 64em) {
     .typeset h3, .typeset .gamma {
       font-size: 1.875rem;
@@ -210,14 +213,14 @@ a {
   padding-top: 0.45834rem; }
   @media screen and (min-width: 18.75em) {
     .typeset h4, .typeset .delta {
-      font-size: 1.775rem;
-      margin-bottom: -0.42314rem;
-      padding-top: 0.42314rem; } }
+      font-size: 1.52143rem;
+      margin-bottom: -0.50555rem;
+      padding-top: 0.50555rem; } }
   @media screen and (min-width: 50em) {
     .typeset h4, .typeset .delta {
-      font-size: 1.875rem;
-      margin-bottom: -0.39064rem;
-      padding-top: 0.39064rem; } }
+      font-size: 1.5rem;
+      margin-bottom: -0.51251rem;
+      padding-top: 0.51251rem; } }
   @media screen and (min-width: 64em) {
     .typeset h4, .typeset .delta {
       font-size: 1.66875rem;
@@ -235,14 +238,14 @@ a {
   padding-top: 0.51522rem; }
   @media screen and (min-width: 18.75em) {
     .typeset h5, .typeset .epsilon {
-      font-size: 1.6rem;
-      margin-bottom: -0.48001rem;
-      padding-top: 0.48001rem; } }
+      font-size: 1.37143rem;
+      margin-bottom: -0.5543rem;
+      padding-top: 0.5543rem; } }
   @media screen and (min-width: 50em) {
     .typeset h5, .typeset .epsilon {
-      font-size: 1.70833rem;
-      margin-bottom: -0.4448rem;
-      padding-top: 0.4448rem; } }
+      font-size: 1.36667rem;
+      margin-bottom: -0.55584rem;
+      padding-top: 0.55584rem; } }
   @media screen and (min-width: 64em) {
     .typeset h5, .typeset .epsilon {
       font-size: 1.40625rem;
@@ -260,14 +263,14 @@ a {
   padding-top: 0.56668rem; }
   @media screen and (min-width: 18.75em) {
     .typeset h6, .typeset .zeta {
-      font-size: 1.41667rem;
-      margin-bottom: -0.53959rem;
-      padding-top: 0.53959rem; } }
+      font-size: 1.21429rem;
+      margin-bottom: -0.60537rem;
+      padding-top: 0.60537rem; } }
   @media screen and (min-width: 50em) {
     .typeset h6, .typeset .zeta {
-      font-size: 1.5rem;
-      margin-bottom: -0.51251rem;
-      padding-top: 0.51251rem; } }
+      font-size: 1.2rem;
+      margin-bottom: -0.61001rem;
+      padding-top: 0.61001rem; } }
   @media screen and (min-width: 64em) {
     .typeset h6, .typeset .zeta {
       font-size: 1.25rem;
@@ -284,12 +287,12 @@ a {
   padding-top: 0.56001rem; }
   @media screen and (min-width: 18.75em) {
     .typeset ul, .typeset ol {
-      margin-bottom: 1.46749rem;
-      padding-top: 0.53251rem; } }
+      margin-bottom: 1.4007rem;
+      padding-top: 0.5993rem; } }
   @media screen and (min-width: 50em) {
     .typeset ul, .typeset ol {
-      margin-bottom: 1.49499rem;
-      padding-top: 0.50501rem; } }
+      margin-bottom: 1.39599rem;
+      padding-top: 0.60401rem; } }
   @media screen and (min-width: 64em) {
     .typeset ul, .typeset ol {
       margin-bottom: 1.41249rem;
@@ -315,10 +318,10 @@ a {
   font-size: 1.06667rem; }
   @media screen and (min-width: 18.75em) {
     .typeset small, .typeset .caption {
-      font-size: 1.13333rem; } }
+      font-size: 0.97143rem; } }
   @media screen and (min-width: 50em) {
     .typeset small, .typeset .caption {
-      font-size: 1.2rem; } }
+      font-size: 0.96rem; } }
   @media screen and (min-width: 64em) {
     .typeset small, .typeset .caption {
       font-size: 0.9375rem; } }
@@ -334,12 +337,12 @@ a {
   padding-top: 0.65334rem; }
   @media screen and (min-width: 18.75em) {
     .typeset .caption {
-      margin-bottom: 1.36832rem;
-      padding-top: 0.63168rem; } }
+      margin-bottom: 1.3157rem;
+      padding-top: 0.6843rem; } }
   @media screen and (min-width: 50em) {
     .typeset .caption {
-      margin-bottom: 1.38999rem;
-      padding-top: 0.61001rem; } }
+      margin-bottom: 1.31199rem;
+      padding-top: 0.68801rem; } }
   @media screen and (min-width: 64em) {
     .typeset .caption {
       margin-bottom: 1.30468rem;
@@ -360,12 +363,12 @@ a {
   padding-bottom: 0.56001rem; }
   @media screen and (min-width: 18.75em) {
     .typeset blockquote p {
-      margin-bottom: 1.93499rem;
-      padding-bottom: 0.53251rem; } }
+      margin-bottom: 1.80142rem;
+      padding-bottom: 0.5993rem; } }
   @media screen and (min-width: 50em) {
     .typeset blockquote p {
-      margin-bottom: 1.98999rem;
-      padding-bottom: 0.50501rem; } }
+      margin-bottom: 1.79199rem;
+      padding-bottom: 0.60401rem; } }
   @media screen and (min-width: 64em) {
     .typeset blockquote p {
       margin-bottom: 1.82499rem;
@@ -402,10 +405,10 @@ a {
   font-size: 1.06667rem; }
   @media screen and (min-width: 18.75em) {
     .typeset code {
-      font-size: 1.13333rem; } }
+      font-size: 0.97143rem; } }
   @media screen and (min-width: 50em) {
     .typeset code {
-      font-size: 1.2rem; } }
+      font-size: 0.96rem; } }
   @media screen and (min-width: 64em) {
     .typeset code {
       font-size: 0.9375rem; } }
@@ -453,10 +456,10 @@ a {
   max-width: 41.66667rem; }
   @media screen and (min-width: 18.75em) {
     .single {
-      max-width: 45.83333rem; } }
+      max-width: 39.28571rem; } }
   @media screen and (min-width: 50em) {
     .single {
-      max-width: 54.16667rem; } }
+      max-width: 43.33333rem; } }
   @media screen and (min-width: 64em) {
     .single {
       max-width: 43.75rem; } }
@@ -625,10 +628,10 @@ a {
   font-size: 1.19167rem; }
   @media screen and (min-width: 18.75em) {
     .global-footer p {
-      font-size: 1.275rem; } }
+      font-size: 1.09286rem; } }
   @media screen and (min-width: 50em) {
     .global-footer p {
-      font-size: 1.35833rem; } }
+      font-size: 1.08667rem; } }
   @media screen and (min-width: 64em) {
     .global-footer p {
       font-size: 1.05625rem; } }
@@ -666,7 +669,7 @@ img {
   font-size: 0;
   border-bottom: 1px solid #eee; }
   .global-header__logo {
-    background-image: url(../../img/sassline-logo.svg);
+    background-image: url(../assets/img/sassline-logo.svg);
     background-size: cover;
     color: transparent;
     display: inline-block;
@@ -764,7 +767,7 @@ img {
       padding: 1rem 0;
       text-transform: uppercase;
       width: auto;
-      font-size: 1rem; }
+      font-size: 0.85714rem; }
       .main-nav li a, .main-nav li span {
         border: 0;
         color: #7c7c7c;
@@ -775,7 +778,7 @@ img {
           color: #0E58F5; } }
   @media screen and (min-width: 50em) {
     .main-nav li {
-      font-size: 1rem; } }
+      font-size: 0.8rem; } }
   @media screen and (min-width: 64em) {
     .main-nav li {
       font-size: 0.75rem; } }

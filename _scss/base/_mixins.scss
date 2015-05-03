@@ -417,7 +417,12 @@ $max-widths: map-values($maxwidths);
   }
 }
 
-@mixin fontsmoothing {
+@mixin fontsmoothing-auto {
+  -webkit-font-smoothing: auto;
+  font-smoothing: auto;
+}
+
+@mixin fontsmoothing-antialiased {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }

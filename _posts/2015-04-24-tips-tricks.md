@@ -6,7 +6,7 @@ category: blog
 tags: []
 ---
 
-<section markdown="1">
+<section markdown="1" class="single">
 
 This post covers various tips and tricks for writing posts or modifying and extending the theme.
 

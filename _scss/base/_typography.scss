@@ -14,7 +14,7 @@ body {
   font-style: normal;
   font-weight: map-get($bodytype, regular);
   line-height: 2rem;
-  @include fontsmoothing();
+  @include fontsmoothing-antialiased();
   text-rendering: optimizeLegibility;
   @include fontsize(zeta, all);
 }
@@ -83,6 +83,8 @@ a {
     font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 
     color: $headingColour;
+    text-rendering: optimizeLegibility;
+    @include fontsmoothing-auto();
     font-family: unquote(map-get($headingtype, font-family));
     font-style: normal;
     font-weight: map-get($headingtype, bold);
