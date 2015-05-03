@@ -12,7 +12,7 @@
 // Import all SCSS modules with Sass globbing.
 @import "modules/footer";
 @import "modules/globals";
-@import "modules/header";
+@import "../_includes/header/header";
 @import "modules/nav";
 
 // Vendors

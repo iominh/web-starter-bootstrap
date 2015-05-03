@@ -15,18 +15,9 @@
 </head>
 <body>
 
-<div class="site">
-    <header class="global-header">
-        <h1 class="global-header__logo"><a class="extra" href="/">home</a></h1>
-        <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li><a href="https://github.com/designbyjake/sassline">Github</a></li>
-            </ul>
-        </nav>
-    </header>
+    {% include header/header.html %}
 
     {{ content }}
-
 
     <footer class="global-footer">
         <p>{{ site.name }}</p>

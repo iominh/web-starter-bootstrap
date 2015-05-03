@@ -688,6 +688,13 @@ img {
       position: absolute;
       right: 0;
       top: 0; }
+  .global-header .feature-image {
+    height: 250px;
+    height: 30vh;
+    background-color: transparent;
+    background-position: center center;
+    background-size: cover;
+    text-align: center; }
 
 .nav-collapse ul {
   display: block;

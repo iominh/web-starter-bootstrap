@@ -3,3 +3,5 @@ markdown: kramdown
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title/
+github_repo: https://github.com/minhongrails/web-starter
+default_feature_image: /assets/img/headers/autochrome-v3.jpg
