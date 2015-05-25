@@ -6,8 +6,7 @@ category: blog
 tags: []
 ---
 
-
-<section markdown="1" class="single">
+<section markdown="1" class="container">
 
 {:.typl8-drop-cap}
 Bright Skies is a free and responsive [Jekyll](http://jekyllrb.com/) theme with a focus on **imagery and typography**.
@@ -35,7 +34,7 @@ This <span style="text-decoration:line-through;">text</span> has been struck.
 
 </section>
 
-<section markdown="1" class="single">
+<section markdown="1" class="container">
 
 <hr />
 
@@ -55,7 +54,7 @@ This <span style="text-decoration:line-through;">text</span> has been struck.
 
 </section>
 
-<section markdown="1" class="single">
+<section markdown="1" class="container">
 
 ## Media
 
@@ -70,13 +69,13 @@ Bears are very majestic, wouldn't you agree? Here's an example of a majestic bea
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 </section>
 
-<h3 id="bigimage" class="single">Full Width Image</h3>
+<h3 id="bigimage">Full Width Image</h3>
 
 <img class="" src="{{default_feature_image}}" alt="Test Image" />
 
-<p class="single">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p class="container">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
-<section markdown="1" class="single">
+<section markdown="1" class="container">
 <hr />
 
 <h2 id="listtypes">List Types</h2>

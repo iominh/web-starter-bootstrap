@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+date:   2014-04-20 09:11:03
 categories: blog
 ---
 
-<section markdown="1" class="single">
+<section markdown="1" class="container">
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
@@ -25,3 +26,4 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:    http://jekyllrb.com
 
 </section>
+

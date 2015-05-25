@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<!-- <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p> -->
-<div class="post section typeset">
-
-    {% if page.columns == "single" %}
-    <section markdown="1" class="single">
-        {{ content }}
-    </section>
-    {% else %}
-        {{ content }}
-    {% endif %}
+<section class="container">
+	<header class="container">
+		<h1>{{ page.title }}</h1>
+		<p class="meta">{{ page.date | date_to_string }}</p>
+	</header>
+	<article class="post">
+		{{ content }}
+	</article>
+</section>
 
 
-</div>
+
+
+

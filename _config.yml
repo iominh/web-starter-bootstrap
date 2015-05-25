@@ -1,7 +1,9 @@
-name: Bright Skies
+name: Bootstrap Jekyll
 markdown: kramdown
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-permalink: /:categories/:title/
-github_repo: https://github.com/minhongrails/web-starter
+permalink: /:categories/:year/:month/:day/:title/
+baseurl: /
+github_repo: https://github.com/minhongrails/bootstrap-jekyll
+production_url: www.minh.io
 default_feature_image: /assets/img/headers/autochrome-v3.jpg
